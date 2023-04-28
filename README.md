@@ -1,12 +1,22 @@
-# dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+# Desafio Dio DynamoDB
+O repositório utilizado foi [Live DIO com cassianobrexbit](https://github.com/cassianobrexbit/dio-live-dynamodb)
+
+## Sobre o DynamoDB
+<p align="justify"> O Amazon DynamoDB é um banco de dados NoSQL (Not Only SQL) de documentos e chave/valor. Este foi utilizado para consolidar o aprendziado do módulo sobre banco de dados relacionais e não relacionais onde foi abordado os principios e realizado práticas com as ferramentas mais utlizadas no mercado: </p>
+
+- [MySQL - relacional](https://www.mysql.com/)
+- [Neo4j - grapho](https://neo4j.com/) 
+- [CassandraDB - Coluna/Familia de colunas](https://cassandra.apache.org/_/index.html)
+- [Redis - Chave/Valor](https://redis.io/)
+- [MongoDB - Documentos](https://www.mongodb.com/)
 
 ### Serviço utilizado
   - Amazon DynamoDB
   - Amazon CLI para execução em linha de comando
 
-### Comandos para execução do experimento:
+<p align="justify">O aws cli promove a integração via terminal com o dynamodb, permitindo a realização dos comandos a seguir. Apesar pouco amigável, torna o trabalho mais produtivo e, para fins do desafio, mais fácil de realizá-lo.</p>
 
+### Comandos para execução do experimento:
 
 - Criar uma tabela
 
@@ -24,6 +34,8 @@ aws dynamodb create-table \
 ```
 
 - Inserir um item
+
+<p align="justify">Os arquivos utilizados para o desafio estão no diretório /src. Ao realizar os comandos de inserção (put-item e batch-write-item) tenha o cuidado de estar neste diretório.</p>
 
 ```
 aws dynamodb put-item \
