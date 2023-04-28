@@ -1,0 +1,58 @@
+{
+  "Music": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Joao Bosco"
+          },
+          "SongTitle": {
+            "S": "Papel Mache"
+          },
+          "AlbumTitle": {
+            "S": "Gagabiro"
+          },
+          "SongYear": {
+            "S": "1984"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Flavio Venturini"
+          },
+          "SongTitle": {
+            "S": "Ceu de Santo Amaro"
+          },
+          "AlbumTitle": {
+            "S": "Porque Nao Tinhamos Bicicleta"
+          },
+          "SongYear": {
+            "S": "2003"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Dolores Duran"
+          },
+          "SongTitle": {
+            "S": "Por Causa de Voce"
+          },
+          "AlbumTitle": {
+            "S": "Canta pra Voce Dancar"
+          },
+          "SongYear": {
+            "S": "1957"
+          }
+        }
+      }
+    }
+  ]
+}
